@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fee135b936.js" crossorigin="anonymous"></script></head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Vaidik Shreshth</span>
+                    <br>
+                     from KIIT University</h1>
+            </div>
+        </div>
+<!-- -------------------------------------about-------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subs">About me</h1>
+                        <p> Hi!! I am Vaidik Shreshth, a B.Tech Computer Science student, I'm deeply intrigued by UX/UI and web development. While mastering core CS concepts, I actively immerse myself in UX/UI principles and web design. Building a diverse portfolio, I craft user-centric websites and actively seek internships for hands-on experience. I am devoted to staying abreast of the latest trends and technologies, aiming to specialize in responsive design or front-end development. Through personal projects, I showcase my passion and innovation, blending technical prowess with design acumen for a dynamic career at the intersection of technology and user experience.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents act-1" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                                <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-2023</span><br>internships at ekart eCommerce.</li>
+                                <li><span>2023-2023</span><br>Campus Ambasador for RV Collage,Banglore</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Designing Training Google</li>
+                                <li><span>2022 </span><br>12th DAV, Bistupur</li>
+                                <li><span>2020</span><br>10th Jusco School Kadma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- -----------------------------------------------------------services------------------------------------------------------------->
+        <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <H2>Web Design</H2>
+                    <p>As a Computer Engineer, web designing involves the intricate fusion
+                        of technical prowess with creative vision to architect and develop 
+                        user-friendly, visually appealing, and functionally robust websites.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <H2>UI/UX Design</H2>
+                    <p>As a Computer Engineer, UI/UX design is about crafting intuitive interfaces that merge technological functionality with user-centric design principles, ensuring seamless, engaging, and satisfying user experiences across digital platforms.</p>
+                    <a href="#">Learn More</a>    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <H2>App Design</H2>
+                    <p>As a Computer Engineer, app designing is the art of translating complex technical functionalities into user-friendly, efficient, and visually compelling interfaces to deliver seamless and intuitive experiences across various devices and platforms.</p>
+                    <a href="#">Learn More</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-----------------------------------portfolio-------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="Btn">See More</a>
+    </div>
+</div>
+<!-- -------------------------------------contact-------------------------- -->
+<div id="contact">
+    <div class="conatiner">
+        <div class="row">
+            <div class="cotact-lf">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  vaidikjsk@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/vaidikshreshth_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/vaidik-shreshth/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume Profile-Ved.pdf" download class="Btn Btn-2">Download CV</a>
+            </div>
+            <div class="cotact-rt">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="Btn Btn-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Ved.This website is Made with <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("act-1");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("act-1");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu (){
+            sidemenu.style.right = "0";
+        }
+        function closemenu (){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
