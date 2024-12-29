@@ -6,8 +6,6 @@ import proj2 from "../assets/proj2.jpg";
 import proj3 from "../assets/proj3.png";
 
 import React from 'react'
-import { title } from "process";
-import { desc, g } from "framer-motion/client";
 const projects = [
     {
         title: " YouTube+Twitter Complete Back-End",
