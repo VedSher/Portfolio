@@ -1,12 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import cursor from "../assets/icon1.png";
 import lightning from "../assets/icon2.png";
-import message from "../assets/icon2.png";
 import { motion } from "framer-motion";
 import profilepic1 from "../assets/profilepic1.png";
-import profilepic from "../assets/profilepic.png";
+
 
 const Hero = () => {
   return (
